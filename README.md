@@ -1,6 +1,6 @@
 # 🚀 DataPilot
 
-**Interactive AI-powered platform for exploring credit card customer data, visualizing trends, and predicting churn using real-time ML models.**
+**Interactive AI-powered platform for exploring credit card customer data, visualizing trends, and predicting churn in real-time using ML models.**
 
 ---
 
