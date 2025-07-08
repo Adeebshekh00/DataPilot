@@ -3,6 +3,7 @@ import joblib
 import pandas as pd
 import xgboost as xgb
 from matplotlib import pyplot as plt
+import cloudpickle
 
 st.set_page_config(page_title="DataPilot - ML Modeling")
 
@@ -40,8 +41,8 @@ with st.form("Customer Details"):
 
 if submitted:
    
-
-    preprocessor = joblib.load("model/preprocessor_DataPilot.pkl")
+    with open("model/preprocessor_final.pkl", "rb") as f:
+       preprocessor = cloudpickle.load(f)
     model = joblib.load("model/xgboost_ensemble.pkl")
 
     input_data = pd.DataFrame([{
