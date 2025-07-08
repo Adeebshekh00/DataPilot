@@ -24,7 +24,7 @@ This project uses the **"Bank Customer Churn Prediction"** dataset from Kaggle:
 
 Experience the application live at:
 
-**[Link](https://datapilot00.streamlit.app/)]**
+[Link](https://datapilot00.streamlit.app/)
 
 ---
 
