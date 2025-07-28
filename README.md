@@ -51,3 +51,14 @@ echo GROQ_API_KEY=your_api_key > .env
 
 # Launch the app
 streamlit run Home.py
+
+```
+
+
+## Video
+https://github.com/user-attachments/assets/8b4a54ab-f088-4d5f-813c-5b4c24541241
+
+
+
+
+
