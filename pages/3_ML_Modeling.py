@@ -85,7 +85,7 @@ if submitted:
     st.markdown("> These column names are a result of preprocessing.")
     
     importances = model.feature_importances_
-    feature_names = X_train_df.columns 
+    feature_names = model.feature_names_in_
     
     feat_imp_df = pd.DataFrame({
         'Feature': feature_names,
