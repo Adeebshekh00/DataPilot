@@ -81,12 +81,23 @@ if submitted:
     
     fig, ax = plt.subplots(figsize=(10, 6))
 
-    # Plot feature importance
+    # Plot feature importance for Balanced Random Forest
     st.markdown("> These column names are a result of preprocessing.")
-    xgb.plot_importance(model, ax=ax, importance_type='gain')  # or 'weight', 'cover'
-    plt.title("Feature Importance (Gain)")
-
-    # Display in Streamlit
+    
+    importances = model.feature_importances_
+    feature_names = X_train_df.columns 
+    
+    feat_imp_df = pd.DataFrame({
+        'Feature': feature_names,
+        'Importance': importances
+    }).sort_values(by='Importance', ascending=False)
+    
+    ax.barh(feat_imp_df['Feature'], feat_imp_df['Importance'])
+    ax.invert_yaxis()
+    ax.set_xlabel("Feature Importance (Gini-based)")
+    ax.set_ylabel("Feature")
+    ax.set_title("Feature Importance - Balanced Random Forest")
+    
     st.pyplot(fig)
 
     
