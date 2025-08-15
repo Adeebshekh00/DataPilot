@@ -41,7 +41,7 @@ with st.form("Customer Details"):
 if submitted:
    
     preprocessor = joblib.load("model/preprocessor_DataPilot.pkl")
-    model = joblib.load("model/xgboost_ensemble.pkl")
+    model = joblib.load("model/balanced_random_forest_model.pkl")
 
 
     input_data = pd.DataFrame([{
