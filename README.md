@@ -1,18 +1,18 @@
-# 🚀 DataPilot
+# DataPilot
 
 **Interactive AI-powered platform for exploring credit card customer data, visualizing trends, and predicting churn in real-time using ML models.**
 
 ---
 
-## 📌 Project Highlights
+## Project Highlights
 
-- 🛠 **Built & deployed** a Streamlit-based app to **upload datasets**, explore data, visualize trends with **Plotly**, and obtain **real-time churn predictions** using ML models.  
-- 📈 Achieved **97.2%+ accuracy** on customer attrition using ensemble models (**XGBoost, Random Forest, AdaBoost**) fine-tuned with **GridSearchCV** and a **ColumnTransformer preprocessing pipeline**.  
-- 🤖 Embedded an **LLM-powered AI assistant (LLaMA-4 via Groq API)** to answer questions about churn logic, code snippets, and graph explanations — enhancing usability for both technical and non-technical users.
+- **Built & deployed** a Streamlit-based app to **upload datasets**, explore data, visualize trends with **Plotly**, and obtain **real-time churn predictions** using ML models.  
+- Achieved **97.2%+ accuracy** on customer attrition using ensemble models (**XGBoost, Random Forest, AdaBoost**) fine-tuned with **GridSearchCV** and a **ColumnTransformer preprocessing pipeline**.  
+- Embedded an **LLM-powered AI assistant (LLaMA-4 via Groq API)** to answer questions about churn logic, code snippets, and graph explanations — enhancing usability for both technical and non-technical users.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 This project uses the **"Bank Customer Churn Prediction"** dataset from Kaggle:
 
@@ -20,7 +20,7 @@ This project uses the **"Bank Customer Churn Prediction"** dataset from Kaggle:
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 Experience the application live at:
 
@@ -28,7 +28,7 @@ Experience the application live at:
 
 ---
 
-## 🛠 Setup & Installation
+## Setup & Installation
 
 Steps to run locally:
 
